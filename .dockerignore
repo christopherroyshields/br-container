@@ -1,3 +1,6 @@
 .git
-brserial.dat
-wbserver.dat
+./br/brserial.dat
+./br/wbserver.dat
+./br/.bak
+.dockerignore
+.gitignore

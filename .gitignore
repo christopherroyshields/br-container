@@ -1,4 +1,4 @@
 .git
-brserial.dat
-wbserver.dat
+br/brserial.dat
+br/wbserver.dat
 log.txt
