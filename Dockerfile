@@ -5,4 +5,5 @@ COPY . /
 ENV TERM=linux
 WORKDIR /br
 
-CMD ["./brlinux"]
+ENTRYPOINT ["/br/brlinux"]
+CMD ["-10+2"]
