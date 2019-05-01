@@ -4,3 +4,5 @@
 ./br/.bak
 .dockerignore
 .gitignore
+Dockerfile
+README.md
