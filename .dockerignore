@@ -1,8 +1,9 @@
 .git
-./br/brserial.dat
-./br/wbserver.dat
+**/brserial.dat
+**/wbserver.dat
 ./br/.bak
 .dockerignore
 .gitignore
 Dockerfile
 README.md
+up.sh

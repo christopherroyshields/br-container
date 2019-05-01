@@ -2,8 +2,9 @@ FROM scratch
 
 COPY . /
 
-ENV TERM=linux
 WORKDIR /br
 
+ENV TERM=linux
+
 ENTRYPOINT ["/br/brlinux"]
-CMD ["-10+2"]
+CMD ["-brconfig.sys"]
