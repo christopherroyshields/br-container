@@ -1,10 +1,7 @@
 FROM scratch
 
 COPY . /
+ENV PATH="/br:${PATH}"
 
 WORKDIR /br
-
-ENV TERM=linux
-
-ENTRYPOINT ["/br/brlinux"]
-CMD ["-brconfig.sys"]
+ENTRYPOINT ["brlinux"]
