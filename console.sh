@@ -1,6 +1,5 @@
 #!/bin/sh
+docker build -t brulescorp/br:scratch .
 docker run -it \
   -v "$PWD/brserial.dat:/br/brserial.dat" \
-  -v brtmp:/br/tmp \
-  --name agent \
-  agent
+  brulescorp/br:scratch
